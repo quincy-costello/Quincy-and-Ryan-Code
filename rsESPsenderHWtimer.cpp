@@ -1,3 +1,5 @@
+//This code is for the ESP-IDF framework.
+
 #include "driver/ledc.h"
 #include "driver/gpio.h"
 #include "driver/gptimer.h"
