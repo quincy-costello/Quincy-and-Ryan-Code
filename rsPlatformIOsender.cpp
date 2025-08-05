@@ -1,3 +1,6 @@
+//This is a IR sender for the PlatformIO framework.
+//It uses LEDC and the hardware timer.
+//It sends the ZT preamble and the devices MAC address.
 #include <M5Stack.h>
 #include <FastLED.h>
 #include "driver/ledc.h"
