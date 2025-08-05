@@ -1,3 +1,4 @@
+//This is a testing receiver that just reads a signal and outputs it if it starts with a high signal(0). This one uses LEDC and the hardware timer.
 #include <stdio.h>
 #include <string.h>
 #include "freertos/FreeRTOS.h"
