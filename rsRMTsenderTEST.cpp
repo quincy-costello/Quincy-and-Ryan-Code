@@ -1,3 +1,6 @@
+//This is a test IR sender for the ESP-IDF framekwork.
+//It uses RMT to handle the signal sending.
+//It sends a basic "Z" for testing.
 #include <stdio.h>
 #include <string.h>
 #include "driver/rmt_tx.h"
