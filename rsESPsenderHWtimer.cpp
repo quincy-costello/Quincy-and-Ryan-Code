@@ -1,5 +1,6 @@
 //This code is for the ESP-IDF framework.
-
+//It sends a signal using LEDC and the hardware timer.
+//It includes the "ZT" preamble and MAC address.
 #include "driver/ledc.h"
 #include "driver/gpio.h"
 #include "driver/gptimer.h"
