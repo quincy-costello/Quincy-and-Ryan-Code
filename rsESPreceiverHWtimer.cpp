@@ -1,3 +1,4 @@
+//This code is for the ESP-IDF framework. It is a receiver that uses LEDC and the hardware timer to receive signals, it looks for the "ZT" preamble and filters out self signals.
 #include <stdio.h>
 #include <string.h>
 #include "freertos/FreeRTOS.h"
