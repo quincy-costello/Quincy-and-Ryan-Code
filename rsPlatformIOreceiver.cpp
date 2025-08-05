@@ -1,3 +1,6 @@
+//This code is a receiver for the PlatformIO framework.
+//It uses LEDC and the hardware timer.
+//It filters out self signals using the MAC address and looks for the "ZT" preamble.
 #include <M5Stack.h>
 #include <FastLED.h>
 #include "driver/gpio.h"
